@@ -8,7 +8,7 @@ using UnityEngine;
 
 public class DatabaseAccess : MonoBehaviour
 {
-    MongoClient client = new MongoClient("mongodb+srv://aeothus:MathDrills001@cluster0.gpgfup6.mongodb.net/?retryWrites=true&w=majority");
+    MongoClient client = new MongoClient("CONNECTIONSTRING");
     IMongoDatabase database;
     IMongoCollection<BsonDocument> collection;
     // Start is called before the first frame update
